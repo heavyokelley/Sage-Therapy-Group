@@ -8,9 +8,6 @@
     }
     p {
         text-align: left;
-        @include breakpoint(460) {
-            text-align: center;
-        }
     }
 }
 

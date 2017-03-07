@@ -28,7 +28,8 @@
     @include center-block;
     h1 {
         @include typeset(18 * $vertical-rhythm-multiple, 20 * $vertical-rhythm-multiple);
-        font-weight: 300;
+        font-weight: 400;
+        font-family: $header-font-family;
     }
     p {
         @include typeset($header-2-size, 14 * $vertical-rhythm-multiple);

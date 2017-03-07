@@ -223,7 +223,7 @@ address {
 # Global
 --------------------------------------------------------------*/
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #555; }
@@ -232,7 +232,7 @@ body {
 # Headers
 --------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Libre Baskerville", serif; }
 
 h1 {
   font-size: 39px;
@@ -458,7 +458,7 @@ ul ol, ol ol {
   padding-left: 1.5rem; }
 
 dt {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: inherit; }
@@ -499,7 +499,7 @@ blockquote {
 # Tables
 --------------------------------------------------------------*/
 table {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -580,7 +580,7 @@ pre {
 # Buttons
 --------------------------------------------------------------*/
 .button, .primary-button, .secondary-button {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   border-radius: 3px;
@@ -609,7 +609,7 @@ pre {
     color: #fff; }
 
 .full-button {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 300;
   background-color: #17b890;
@@ -761,7 +761,7 @@ form li {
   margin-bottom: 1.875rem; }
 
 label {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   display: inline-block;
@@ -772,7 +772,7 @@ input[type=text], input[type=email], input[type=url], input[type=password],
 input[type=search], input[type=color], input[type=date], input[type=datetime],
 input[type=datetime-local], input[type=number], input[type=range], input[type=tel],
 input[type=time], input[type=week], input[type=file], textarea, select {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   -webkit-appearance: none;
@@ -845,7 +845,7 @@ input[type=radio]:checked + label, input[type=checkbox]:checked + label {
   font-weight: 700; }
 
 input[type=submit], button[type=submit], input[type=button] {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   -webkit-appearance: none;
@@ -896,7 +896,7 @@ input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
   border-radius: 0;
   padding: 0; }
   #commentform p {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -990,7 +990,7 @@ input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
   margin-bottom: 1.6875rem; }
 
 .commentlist {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   list-style: none;
@@ -1028,7 +1028,7 @@ input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
     width: 50px;
     width: 3.125rem; }
   .comment-author address {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700; }
   .comment-author time {
@@ -1069,7 +1069,7 @@ input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
 # Post Pagination
 --------------------------------------------------------------*/
 .post-pagination {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1085,7 +1085,7 @@ input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
 # Archive Pagination
 --------------------------------------------------------------*/
 .pagination {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   border-top: 1px solid #ddd;
@@ -1277,7 +1277,8 @@ hr {
     font-size: 54px;
     font-size: 3.375rem;
     line-height: 1.11111;
-    font-weight: 300; }
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif; }
   .hero-block-content p {
     font-size: 31px;
     font-size: 1.9375rem;
@@ -1296,9 +1297,6 @@ hr {
     color: #2474a9; }
   .center-block p {
     text-align: left; }
-    @media only screen and (min-width: 28.75em) {
-      .center-block p {
-        text-align: center; } }
 
 .dark-bg.center-block h2 {
   color: #fff; }
