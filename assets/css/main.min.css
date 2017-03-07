@@ -135,11 +135,11 @@ a {
   transition: all 0.25s ease-in-out 0s; }
 
 a, a:visited {
-  color: #2474a9;
+  color: #087e8b;
   text-decoration: none; }
 
 a:hover, a:active {
-  color: #439cd7; }
+  color: #0cc0d3; }
 
 button {
   background-color: transparent;
@@ -593,17 +593,17 @@ pre {
   width: auto; }
 
 .primary-button {
-  background-color: #17b890; }
+  background-color: #89C39B; }
   .primary-button:hover {
-    background-color: #1acfa2;
+    background-color: #9acca9;
     color: #fff; }
   .primary-button:visited {
     color: #fff; }
 
 .secondary-button {
-  background-color: #2474a9; }
+  background-color: #087e8b; }
   .secondary-button:hover {
-    background-color: #2e91d2;
+    background-color: #0baabb;
     color: #fff; }
   .secondary-button:visited {
     color: #fff; }
@@ -612,7 +612,7 @@ pre {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 300;
-  background-color: #17b890;
+  background-color: #89C39B;
   color: #fff;
   display: block;
   font-size: 25px;
@@ -623,7 +623,7 @@ pre {
   .full-button:visited {
     color: #fff; }
   .full-button:hover, .full-button:active {
-    background-color: #1acfa2;
+    background-color: #9acca9;
     color: #fff; }
 
 /*--------------------------------------------------------------
@@ -807,7 +807,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[ty
 input[type=search]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus,
 input[type=datetime-local]:focus, input[type=number]:focus, input[type=range]:focus, input[type=tel]:focus,
 input[type=time]:focus, input[type=week]:focus, textarea:focus, select:focus {
-  border-color: #17b890; }
+  border-color: #89C39B; }
 
 textarea {
   height: 240px;
@@ -851,7 +851,7 @@ input[type=submit], button[type=submit], input[type=button] {
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
-  background-color: #17b890;
+  background-color: #89C39B;
   border: none;
   border-radius: 4px;
   border-radius: 0.25rem;
@@ -863,7 +863,7 @@ input[type=submit], button[type=submit], input[type=button] {
   transition: all 0.25s ease-in-out 0s; }
 
 input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
-  background-color: #1acfa2;
+  background-color: #9acca9;
   cursor: pointer; }
 
 :-moz-placeholder {
@@ -1113,7 +1113,7 @@ input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
     position: absolute;
     top: -9999em; }
     .pagination .page-numbers:hover, .pagination .page-numbers:active {
-      background-color: #17b890;
+      background-color: #89C39B;
       color: #fff; }
   .pagination .prev, .pagination .next {
     left: auto;
@@ -1206,7 +1206,7 @@ hr {
 .photo-bg {
   color: #fff; }
   .photo-bg:before {
-    background-color: rgba(18, 58, 85, 0.65);
+    background-color: rgba(2, 39, 43, 0.65);
     content: '';
     display: block;
     height: 100%;
@@ -1228,7 +1228,7 @@ hr {
     padding: 30px 15px;
     padding: 1.875rem 15px; }
   .demo-icon-block [class^="icon-"], .demo-icon-block [class*=" icon-"] {
-    color: #2474a9;
+    color: #087e8b;
     font-size: 31px;
     font-size: 1.9375rem; }
   .demo-icon-block .demo-code {
@@ -1255,7 +1255,7 @@ hr {
   color: #fff;
   text-align: center; }
   .hero-block:before {
-    background-color: rgba(18, 58, 85, 0.65);
+    background-color: rgba(2, 39, 43, 0.65);
     content: '';
     display: block;
     height: 100%;
@@ -1294,7 +1294,7 @@ hr {
 .center-block {
   text-align: center; }
   .center-block h2 {
-    color: #2474a9; }
+    color: #D52D1F; }
   .center-block p {
     text-align: left; }
 
@@ -1354,7 +1354,7 @@ hr {
     font-size: 1.125rem;
     text-align: left; }
   .feature-item [class^="icon-"], .feature-item [class*=" icon-"] {
-    color: #2474a9;
+    color: #D52D1F;
     font-size: 31px;
     font-size: 1.9375rem;
     left: 0;
@@ -1563,8 +1563,8 @@ hr {
         font-family: "Sparkicons";
         -moz-osx-font-smoothing: grayscale; }
     .social-block li a:hover, .social-block li a:active {
-      background-color: #17b890;
-      border-color: #17b890;
+      background-color: #89C39B;
+      border-color: #89C39B;
       color: #fff; }
     .social-block li a[href*='twitter.com']:before {
       content: '\e637'; }
