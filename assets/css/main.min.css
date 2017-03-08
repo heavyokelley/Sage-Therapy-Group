@@ -357,17 +357,17 @@ p {
 # Site Logo
 --------------------------------------------------------------*/
 .site-logo {
-  float: left;
+  margin: 0 auto;
   background-image: url(../../assets/images/logo-240x74.png);
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: 150px 46.25px;
+  background-size: 120px 37px;
   display: block;
-  height: 46.25px;
+  height: 37px;
   text-indent: -9999em;
   top: 4px;
-  top: 0rem;
-  width: 150px; }
+  top: 0.09375rem;
+  width: 120px; }
 
 /*--------------------------------------------------------------
 # Masthead Button
@@ -1208,7 +1208,7 @@ hr {
 .photo-bg {
   color: #fff; }
   .photo-bg:before {
-    background-color: rgba(2, 39, 43, 0.65);
+    background-color: rgba(2, 39, 43, 0.45);
     content: '';
     display: block;
     height: 100%;
@@ -1257,7 +1257,7 @@ hr {
   color: #fff;
   text-align: center; }
   .hero-block:before {
-    background-color: rgba(2, 39, 43, 0.65);
+    background-color: rgba(2, 39, 43, 0.45);
     content: '';
     display: block;
     height: 100%;

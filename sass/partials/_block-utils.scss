@@ -32,7 +32,7 @@
 .photo-bg {
     color: $white;
     &:before {
-        background-color: rgba($secondary-bg-color, 0.65);
+        background-color: rgba($secondary-bg-color, 0.45);
         content: '';
         display: block;
         height: 100%;
