@@ -123,6 +123,7 @@ input[type=submit], button[type=submit], input[type=button] {
     border-radius: px(4);
     border-radius: rem(4);
     color: $white;
+    font-weight: 700;
     font-size: inherit;
     margin: 0;
     padding: px(3 * $vertical-rhythm-multiple) px(6 * $vertical-rhythm-multiple);

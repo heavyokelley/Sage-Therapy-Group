@@ -135,11 +135,11 @@ a {
   transition: all 0.25s ease-in-out 0s; }
 
 a, a:visited {
-  color: #087e8b;
+  color: #89bf80;
   text-decoration: none; }
 
 a:hover, a:active {
-  color: #0cc0d3; }
+  color: #b8d9b3; }
 
 button {
   background-color: transparent;
@@ -586,6 +586,7 @@ pre {
   border-radius: 3px;
   border-radius: 0.1875rem;
   color: #fff;
+  font-weight: 700;
   display: inline-block;
   padding: 12px 24px 15px;
   padding: 0.75rem 1.5rem 0.9375rem;
@@ -593,15 +594,15 @@ pre {
   width: auto; }
 
 .primary-button {
-  background-color: #89C39B; }
+  background-color: #89bf80; }
   .primary-button:hover {
-    background-color: #9acca9;
+    background-color: #99c891;
     color: #fff; }
   .primary-button:visited {
     color: #fff; }
 
 .secondary-button {
-  background-color: #087e8b; }
+  background-color: #89bf80; }
   .secondary-button:hover {
     background-color: #0baabb;
     color: #fff; }
@@ -612,7 +613,7 @@ pre {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 300;
-  background-color: #89C39B;
+  background-color: #89bf80;
   color: #fff;
   display: block;
   font-size: 25px;
@@ -623,7 +624,7 @@ pre {
   .full-button:visited {
     color: #fff; }
   .full-button:hover, .full-button:active {
-    background-color: #9acca9;
+    background-color: #99c891;
     color: #fff; }
 
 /*--------------------------------------------------------------
@@ -807,7 +808,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[ty
 input[type=search]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus,
 input[type=datetime-local]:focus, input[type=number]:focus, input[type=range]:focus, input[type=tel]:focus,
 input[type=time]:focus, input[type=week]:focus, textarea:focus, select:focus {
-  border-color: #89C39B; }
+  border-color: #89bf80; }
 
 textarea {
   height: 240px;
@@ -851,11 +852,12 @@ input[type=submit], button[type=submit], input[type=button] {
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
-  background-color: #89C39B;
+  background-color: #89bf80;
   border: none;
   border-radius: 4px;
   border-radius: 0.25rem;
   color: #fff;
+  font-weight: 700;
   font-size: inherit;
   margin: 0;
   padding: 9px 18px;
@@ -863,7 +865,7 @@ input[type=submit], button[type=submit], input[type=button] {
   transition: all 0.25s ease-in-out 0s; }
 
 input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
-  background-color: #9acca9;
+  background-color: #99c891;
   cursor: pointer; }
 
 :-moz-placeholder {
@@ -1113,7 +1115,7 @@ input[type=submit]:hover, button[type=submit]:hover, input[type=button]:hover {
     position: absolute;
     top: -9999em; }
     .pagination .page-numbers:hover, .pagination .page-numbers:active {
-      background-color: #89C39B;
+      background-color: #89bf80;
       color: #fff; }
   .pagination .prev, .pagination .next {
     left: auto;
@@ -1294,8 +1296,10 @@ hr {
 .center-block {
   text-align: center; }
   .center-block h2 {
-    color: #D52D1F; }
+    color: #087e8b; }
   .center-block p {
+    text-align: left; }
+  .center-block h4 {
     text-align: left; }
 
 .dark-bg.center-block h2 {
@@ -1563,8 +1567,8 @@ hr {
         font-family: "Sparkicons";
         -moz-osx-font-smoothing: grayscale; }
     .social-block li a:hover, .social-block li a:active {
-      background-color: #89C39B;
-      border-color: #89C39B;
+      background-color: #89bf80;
+      border-color: #89bf80;
       color: #fff; }
     .social-block li a[href*='twitter.com']:before {
       content: '\e637'; }

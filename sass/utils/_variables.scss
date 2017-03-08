@@ -37,7 +37,7 @@ $alpha-ninety-white: rgba($white, 0.9);
 // Brand Color Values
 $brand-color: #D52D1F;
 $brand-secondary-color: #087e8b;
-$brand-tertiary-color: #89C39B;
+$brand-tertiary-color: #89bf80;
 
 // Brand Dark Color Values
 $brand-color-dark: darken($brand-color, 20%);
@@ -47,18 +47,18 @@ $brand-tertiary-color-dark: darken($brand-tertiary-color, 20%);
 // Text Colors
 $text-color: #555;
 $light-text-color: #888;
-$marcomm-header-color: $brand-color;
+$marcomm-header-color: $brand-secondary-color;
 
 // Link Colors
-$link-color: $brand-secondary-color;
-$link-color-hover: lighten($brand-secondary-color, 15%);
+$link-color: $brand-tertiary-color;
+$link-color-hover: lighten($brand-tertiary-color, 15%);
 
 // Button Colors
 $primary-button-color: $brand-tertiary-color;
 $primary-button-color-hover: lighten($brand-tertiary-color, 5%);
 $primary-button-text-color: $white;
 $primary-button-text-color-hover: $white;
-$secondary-button-color: $brand-secondary-color;
+$secondary-button-color: $brand-tertiary-color;
 $secondary-button-color-hover: lighten($brand-secondary-color, 10%);
 $secondary-button-text-color: $white;
 $secondary-button-text-color-hover: $white;
